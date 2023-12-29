@@ -87,7 +87,7 @@ def build_model(X, y):
 - Evaluated
 ![Evaluated1](data/Screenshot%202023-12-29%20102934.png)
 
-2. Random Forest:
+1. Random Forest:
 ```python
 def model_RandomForest(X , Y):
     RFC = RandomForestClassifier()
@@ -110,6 +110,7 @@ def model_RandomForest(X , Y):
     return model
 ```
 - Evaluated
+
 ![Evaluated2](data/Screenshot%202023-12-29%20103748.png)
 3. CatBoost:
 ```python
@@ -137,6 +138,7 @@ def build_model_RF_Iter(X, y):
     return model
 ```
 ![Evaluated3](data/Screenshot%202023-12-29%20104311.png)
+
 4. SVM:
 ```python
 def build_model_LSVM_SimpleImputer(X, y):
